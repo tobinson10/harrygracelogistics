@@ -57,9 +57,13 @@ export default function Nav({ dark, onToggleDark }: NavProps) {
             onClick={() => handleNavClick('#home')}
             className="flex items-center gap-2.5 group"
           >
-            <div className="w-10 h-10 rounded-lg flex items-center justify-center gold-gradient shadow-lg group-hover:scale-105 transition-transform">
-              <Globe size={22} className="text-navy" strokeWidth={2.5} />
-            </div>
+            <div className="w-10 h-10 rounded-lg flex items-center justify-center">
+  <img 
+    src="/logo.png" 
+    alt="HarryGrace International Logistics" 
+    className="w-10 h-10 object-contain"
+  />
+</div>
             <div className="text-left">
               <div
                 className="font-display text-white tracking-widest text-[17px] leading-none"
