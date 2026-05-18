@@ -14,7 +14,7 @@ export default function FloatingActions() {
     <>
       {/* Floating WhatsApp */}
       <a
-        href="https://wa.me/2348012345678?text=Hello%20Harrygrace%20Logistics%2C%20I%20need%20a%20shipping%20quote."
+        href="https://wa.me/2347068303284?text=Hello%20Harrygrace%20Logistics%2C%20I%20need%20a%20shipping%20quote."
         target="_blank"
         rel="noopener noreferrer"
         className="whatsapp-float fixed bottom-6 left-5 z-50 flex items-center gap-2.5 px-4 py-3.5 rounded-2xl text-white text-[13px] font-bold shadow-2xl transition-all hover:shadow-green-500/30 group"
