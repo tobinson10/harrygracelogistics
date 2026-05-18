@@ -176,7 +176,7 @@ export default function Footer() {
               {[
                 { Icon: MapPin, text: 'Wing 204 Nahco complex, Muritala Mohammed International Airport, Lagos State, Nigeria' },
                 { Icon: Phone, text: '+234 706 830 3284' },
-                { Icon: Mail, text: 'harryisa8@gmail.com' },
+                { Icon: Mail, text: 'harryosa8@gmail.com' },
               ].map(({ Icon, text }, i) => (
                 <div key={i} className="flex items-start gap-2.5 text-white/50 text-[12.5px]" style={{ fontFamily: 'var(--font-body)' }}>
                   <Icon size={13} className="mt-0.5 flex-shrink-0" style={{ color: 'var(--color-gold)' }} />
