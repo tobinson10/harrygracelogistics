@@ -174,9 +174,11 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 mb-7">
               {[
-                { Icon: MapPin, text: '45 Apapa Road, Apapa, Lagos, Nigeria' },
-                { Icon: Phone, text: '+234 801 234 5678' },
-                { Icon: Mail, text: 'info@harrygrace-logistics.com' },
+                { Icon: MapPin, text: 'Wing 204 Nahco complex, Muritala Mohammed International Airport
+Lagos State
+Nigeria' },
+                { Icon: Phone, text: '+234 706 830 3284' },
+                { Icon: Mail, text: 'harryisa8@gmail.com' },
               ].map(({ Icon, text }, i) => (
                 <div key={i} className="flex items-start gap-2.5 text-white/50 text-[12.5px]" style={{ fontFamily: 'var(--font-body)' }}>
                   <Icon size={13} className="mt-0.5 flex-shrink-0" style={{ color: 'var(--color-gold)' }} />
