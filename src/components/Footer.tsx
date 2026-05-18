@@ -174,9 +174,7 @@ export default function Footer() {
             </h4>
             <div className="space-y-3 mb-7">
               {[
-                { Icon: MapPin, text: 'Wing 204 Nahco complex, Muritala Mohammed International Airport
-Lagos State
-Nigeria' },
+                { Icon: MapPin, text: 'Wing 204 Nahco complex, Muritala Mohammed International Airport, Lagos State, Nigeria' },
                 { Icon: Phone, text: '+234 706 830 3284' },
                 { Icon: Mail, text: 'harryisa8@gmail.com' },
               ].map(({ Icon, text }, i) => (
