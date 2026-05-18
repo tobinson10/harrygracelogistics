@@ -84,17 +84,17 @@ export default function Contact() {
               {
                 icon: MapPin,
                 label: 'Lagos Office',
-                lines: ['45 Apapa Road, Apapa', 'Lagos Island, Lagos State', 'Nigeria'],
+                lines: ['Wing 204 Nahco complex, Muritala Mohammed International Airport', 'Lagos State', 'Nigeria'],
               },
               {
                 icon: Phone,
                 label: 'Phone & WhatsApp',
-                lines: ['+234 801 234 5678', '+234 802 345 6789'],
+                lines: ['+234 706 830 3284'],
               },
               {
                 icon: Mail,
                 label: 'Email',
-                lines: ['info@harrygrace-logistics.com', 'support@harrygrace-logistics.com'],
+                lines: ['harryosa8@gmail.com', 'harryosa8@gmail.com'],
               },
             ].map((item, i) => {
               const Icon = item.icon
@@ -136,7 +136,7 @@ export default function Contact() {
 
             {/* WhatsApp CTA */}
             <a
-              href="https://wa.me/2348012345678?text=Hello%20Harrygrace%20Logistics%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
+              href="https://wa.me/2347068303284?text=Hello%20Harrygrace%20Logistics%2C%20I%20would%20like%20to%20enquire%20about%20your%20services."
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 w-full px-6 py-4 rounded-2xl font-bold text-white text-[14px] transition-all hover:opacity-90 hover:scale-[1.02] hover:shadow-lg"
